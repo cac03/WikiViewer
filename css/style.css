@@ -263,7 +263,7 @@ body{
 	height: 100%;
 }
 
-.moar-wrap{
+.second-aimation-wrap{
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -367,8 +367,6 @@ body{
 }
 
 .main-footer{
-	position: relative;
-	z-index: 1;
 	text-align: center;
 
 	background-color: #DDD;

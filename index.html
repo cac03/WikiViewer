@@ -14,7 +14,7 @@
 	</head>
 	<body>
 		<div class = "animation-wrap">
-			<div class = "moar-wrap">
+			<div class = "second-aimation-wrap">
 				<div class="loader-inner ball-clip-rotate"><div></div></div>
 			</div>
 		</div>
@@ -97,7 +97,6 @@
 				var ScriptElement = document.createElement('script');
 				
 				ScriptElement.src = Url;
-				console.log(Url);
 				ScriptElement.onreadystatechange = function(){
 					if (this.readyState == 'complete' || this.readyState == 'loaded'){
 						this.onreadystatechange = null;
@@ -258,7 +257,6 @@
 			var SearchWrap = document.querySelector('.search-wrap');
 			var BeforeIconClickView = document.querySelector('.view-before-icon-click');
 			ClearSearchBoxButton.addEventListener('click', function(event){
-				console.log('click happened');
 				document.querySelector('.main-header').style.paddingTop = null;
 				
 				
