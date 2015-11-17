@@ -93,7 +93,7 @@ body{
 	position: absolute;
 	top: 39px;
 	left: 50%;
-	z-index: 1;
+	z-index: 2;
 	
 	color: #111;
 	text-decoration: none;
@@ -211,6 +211,7 @@ body{
 	position: fixed;
 	top: 0;
 	left: 0;
+	z-index: 3;
 
 	display: none;
 	width: 100%;
@@ -222,7 +223,7 @@ body{
 
 .wiki-article{
 	position: relative;
-	z-index: 2;
+	z-index: 3;
 
 	background-color: #FFF;
 	padding: 20px;
@@ -236,7 +237,7 @@ body{
 }
 .close-article-btn:after{
 	position:fixed;
-	z-index: 2;
+	z-index: 3;
 	content: '+';
 	font-size: 80px;
 	color: #FFF;
@@ -253,7 +254,7 @@ body{
 .animation-wrap{
 	display: none;
 	position: fixed;
-	z-index: 4;
+	z-index: 5;
 
 	top: 0;
 	left: 0;
@@ -366,6 +367,8 @@ body{
 }
 
 .main-footer{
+	position: relative;
+	z-index: 1;
 	text-align: center;
 
 	background-color: #DDD;
